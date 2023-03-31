@@ -22,6 +22,7 @@ My age is 100
 
 ---
 
+### 정리해 봅시다
 1. main() 메소드의 메소드 이름 앞에는 어떤 예약어들이 들어가나요?
 - public, static, void
 
@@ -50,6 +51,6 @@ My age is 100
 - \/* 부터 \*/를 만날때까지 모두 주석처리
 
 15. 메소드를 선언할 때 반드시 꼭 있어야 하는 세가지는 무엇인가요?
-- return type, method name, body?
+- return type, method name, (parameters), + body
 
 
