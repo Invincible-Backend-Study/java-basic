@@ -1,4 +1,4 @@
-package C01;
+package C01.Calculator;
 
 import static org.junit.jupiter.api.Assertions.*;
 

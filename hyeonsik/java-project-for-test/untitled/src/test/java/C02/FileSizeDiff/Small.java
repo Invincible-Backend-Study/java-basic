@@ -1,4 +1,4 @@
-package C02;
+package C02.FileSizeDiff;
 
 public class Small implements NumberBox {
     private final int number;

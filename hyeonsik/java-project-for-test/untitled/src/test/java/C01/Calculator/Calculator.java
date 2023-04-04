@@ -1,4 +1,4 @@
-package C01;
+package C01.Calculator;
 
 public class Calculator {
     public int add(int num1, int num2) {
