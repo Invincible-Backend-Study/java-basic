@@ -53,4 +53,10 @@ My age is 100
 15. 메소드를 선언할 때 반드시 꼭 있어야 하는 세가지는 무엇인가요?
 - return type, method name, (parameters), + body
 
+---
+
+
+# 관련이슈
+
+[주석이 성능에 영향을 미칠까요?](https://github.com/Invincible-Backend-Study/java-basic/issues/1)
 
