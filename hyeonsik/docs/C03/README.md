@@ -12,6 +12,49 @@
 6. Profile 클래스 객체 선언한 후
 7. setName(”Min”), setAge(20)
 8. printName(), printAge() 를 실행
+```java
+public class Profile {
+    private String name;
+    private int age;
+
+    public void setName(String str) {
+        name = str;
+    }
+    public void setAge(int val) {
+        age = val;
+    }
+    public void printName() {
+        System.out.println("My name is " + name);
+    }
+    public void printAge() {
+        System.out.println("My age is " + age);
+    }
+}
+```
+
+```java
+class ProfileTest {
+    private Profile profile;
+
+    @BeforeEach
+    void beforeEach() throws Exception {
+        profile = new Profile();
+        profile.setName("Min");
+        profile.setAge(20);
+    }
+
+    @Test
+    @DisplayName("프로필 정보 조회")
+    void check_profile() {
+        // assertEquals("Min", profile.printName());
+        // 책에 나와있는대로 클래스 작성시 테스트가 불가능함
+        profile.printName();
+        profile.printAge();
+    }
+
+}
+
+```
 
 <br/>
 
