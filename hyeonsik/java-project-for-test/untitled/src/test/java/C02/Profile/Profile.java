@@ -1,8 +1,19 @@
 package C02.Profile;
 
 public class Profile {
-//    public static void main(String[] args) {
-//        System.out.println("My name is Basak!");
-//        System.out.println("My age is 100");
-//    }
+    private String name;
+    private int age;
+
+    public void setName(String str) {
+        name = str;
+    }
+    public void setAge(int val) {
+        age = val;
+    }
+    public void printName() {
+        System.out.println("My name is " + name);
+    }
+    public void printAge() {
+        System.out.println("My age is " + age);
+    }
 }
